@@ -10,7 +10,7 @@ Obrigatórios:
 - bomba 		- Bico do abastecimento
 - codcb 		- Código do bico para automação
 - dataHora 	- Data e Horário do abastecimento (Y-m-d H:i:s) (Ex: 2021-12-23 10:00:00)
-- litro 		- quantidade de litros 
+- litros 		- quantidade de litros 
 - total 		- custo total do abastecimento
 
 Opcionais:
