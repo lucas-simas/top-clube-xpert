@@ -6,11 +6,13 @@ Este repositório contém a informação de integração do Top Clube com XPERT.
 Para funcionamento correto, deve-se enviar as seguinte informações:
 
 Obrigatórios:
-- controle 	- Identificador do Abastecimento (Único)
-- bomba 		- Bico do abastecimento (001, 002)
-- dataHora 	- Data e Horário do abastecimento (Y-m-d H:i:s) (Ex: 2021-12-23 10:00:00)
-- litros 		- quantidade de litros 
-- total 		- custo total do abastecimento
+- controle 	  - Identificador do Abastecimento (Único)
+- bomba 		  - Bico do abastecimento (001, 002)
+- dataHora 	  - Data e Horário do abastecimento (Y-m-d H:i:s) (Ex: 2021-12-23 10:00:00)
+- litros 		  - quantidade de litros 
+- total 		  - custo total do abastecimento
+- encInicial  - Encerrante inicial (Único)
+- encFinal    - Encerrante final (Único)
 
 Opcionais:
 - codpro 		- tipo de combustivel (codigo do combustivel)
