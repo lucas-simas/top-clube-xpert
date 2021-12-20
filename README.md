@@ -1,2 +1,2 @@
-# top-clube-xpert
-Automação do Top Clube x XPert
+# Top Clube x XPERT - Integração
+Repositório de integração Top Clube e XPERT
