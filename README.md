@@ -18,7 +18,7 @@ Opcionais:
 - tanque 		- alimentação do posto 
 - pu 			- preço do combustivel 
 - idfrentista 	- identificador do frentista
-- idcliente 	- identificador do cliente
+- idcliente 	- identificador do cliente (cpf ou cnpj)
 - tempo 		- Duração do abastecimento (H:i:s) ou (01:02:00)
 
 Estas informações devem ser enviadas para um IP específico na porta: 8284.
