@@ -5,7 +5,7 @@ Repositório de integração Top Clube e XPERT
 Este repositório contém a informação de integração do Top Clube com XPERT.
 Para funcionamento correto, deve-se enviar as seguinte informações:
 
-Obrigatórios
+Obrigatórios:
 - controle 	- Identificador do Abastecimento (Único)
 - bomba 		- Bico do abastecimento
 - codcb 		- Código do bico para automação
@@ -20,3 +20,9 @@ Opcionais:
 - idfrentista 	- identificador do frentista
 - idcliente 	- identificador do cliente
 - tempo 		- Duração do abastecimento (H:i:s) ou (01:02:00)
+
+Estas informações devem ser enviadas para um IP específico na porta: 8284.
+Como a seguinte URL:
+```
+192.168.0.11:8284/api.php
+```
