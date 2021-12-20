@@ -21,6 +21,7 @@ Opcionais:
 - tempo 		- Duração do abastecimento (H:i:s) ou (01:02:00)
 
 Estas informações devem ser enviadas para um IP específico na porta: 8284.
+(O IP provavelmente é o mesmo que o XPERT estará rodando)
 Como a seguinte URL:
 ```
 192.168.0.11:8284/api.php
