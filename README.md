@@ -27,4 +27,5 @@ Como a seguinte URL:
 192.168.0.11:8284/api.php
 ```
 Sucesso: pode-se esperar o retorno HTTP CODE 200
+
 Falha: pode-se esperar o retorno HTTP CODE 400
