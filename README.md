@@ -29,3 +29,8 @@ Como a seguinte URL:
 Sucesso: pode-se esperar o retorno HTTP CODE 200
 
 Falha: pode-se esperar o retorno HTTP CODE 400
+
+Exemplo CURL:
+```
+curl -X POST http://localhost:8284/api.php -H "Content-Type: application/x-www-form-urlencoded" -d "{\"controle\":\"11\",\"bomba\":\"01\",\"dataHora\":\"2021-12-20 15:23:30\",\"litros\":\"1.23\",\"total\":\"10.22\",\"pu\":\"5.21\"}"
+```
