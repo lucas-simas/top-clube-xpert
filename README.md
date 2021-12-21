@@ -45,7 +45,7 @@ curl -X POST http://localhost:8284/api.php -H "Content-Type: application/x-www-f
 - Permissões: SELECT, INSERT
 - Schema: bgquality
 - Table: pontos_xpert_abastecimento
-- Formato: SQL (MariaDB ou MySQL)
+- Formato: MariaDB (MySQL)
 - Porta: 3330
 - IP: (Customizável assim como no webservice)
 
