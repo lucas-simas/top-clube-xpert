@@ -39,6 +39,7 @@ curl -X POST http://localhost:8284/api.php -H "Content-Type: application/x-www-f
 
 
 ## Acesso direto ao banco
+Se possível permitir alterar usuário, senha, porta e ip de maneira simples é interessante.
 
 - Usuário: xpert
 - Senha: xpert
