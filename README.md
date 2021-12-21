@@ -1,7 +1,7 @@
 # Top Clube x XPERT - Integração
 Repositório de integração Top Clube e XPERT
 
-## Introdução
+## Webservice
 Este repositório contém a informação de integração do Top Clube com XPERT.
 Para funcionamento correto, deve-se enviar as seguinte informações:
 
