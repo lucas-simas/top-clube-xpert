@@ -40,14 +40,14 @@ curl -X POST http://localhost:8284/api.php -H "Content-Type: application/x-www-f
 
 ## Acesso direto ao banco
 
-Usuário: xpert
-Senha: xpert
-Permissões: SELECT, INSERT
-Schema: bgquality
-Table: pontos_xpert_abastecimento
-Formato: SQL (MariaDB ou MySQL)
-Porta: 3330
-IP: (Customizável assim como no webservice)
+- Usuário: xpert
+- Senha: xpert
+- Permissões: SELECT, INSERT
+- Schema: bgquality
+- Table: pontos_xpert_abastecimento
+- Formato: SQL (MariaDB ou MySQL)
+- Porta: 3330
+- IP: (Customizável assim como no webservice)
 
 Campo não informado no webservice que devem ser informados:
 - enviado (sempre enviar 2)
