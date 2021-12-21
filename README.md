@@ -11,8 +11,8 @@ Obrigatórios:
 - dataHora 	  - Data e Horário do abastecimento (Y-m-d H:i:s) (Ex: 2021-12-23 10:00:00)
 - litros 		  - quantidade de litros 
 - total 		  - custo total do abastecimento
-- encInicial  - Encerrante inicial (Único)
-- encFinal    - Encerrante final (Único)
+- encInicial  - Encerrante inicial 
+- encFinal    - Encerrante final 
 
 Opcionais:
 - codpro 		- tipo de combustivel (codigo do combustivel)
@@ -35,4 +35,47 @@ Falha: pode-se esperar o retorno HTTP CODE 400
 Exemplo CURL:
 ```
 curl -X POST http://localhost:8284/api.php -H "Content-Type: application/x-www-form-urlencoded" -d "{\"controle\":\"11\",\"bomba\":\"01\",\"dataHora\":\"2021-12-20 15:23:30\",\"litros\":\"1.23\",\"total\":\"10.22\",\"pu\":\"5.21\"}"
+```
+
+
+##Acesso direto ao banco
+
+Usuário: xpert
+Senha: xpert
+Permissões: SELECT, INSERT
+Schema: bgquality
+Table: pontos_xpert_abastecimento
+Formato: SQL (MariaDB ou MySQL)
+Porta: 3330
+IP: (Customizável assim como no webservice)
+
+Campo não informado no webservice que devem ser informados:
+- enviado (sempre enviar 2)
+
+```
+CREATE TABLE IF NOT EXISTS pontos_xpert_abastecimento (
+
+	controle		VARCHAR(36) NOT NULL PRIMARY KEY,
+	bomba 			VARCHAR(10) NOT NULL,
+
+	dataHora 		DATETIME NOT NULL,
+	litros 			FLOAT NOT NULL,
+	total 			FLOAT NOT NULL,
+
+	pu 				FLOAT NULL,
+	tempo 			VARCHAR(8) NULL,
+
+	codcb 			VARCHAR(32) NULL,
+	codpro 			VARCHAR(32) NULL,
+
+	idfrentista 	VARCHAR(36) NULL,
+	idcliente 		VARCHAR(36) NULL,
+
+	encInicial		FLOAT NOT NULL,
+	encFinal		FLOAT NOT NULL,
+
+	enviado			INTEGER NOT NULL,
+	error			TEXT NULL
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
