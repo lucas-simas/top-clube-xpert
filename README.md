@@ -51,7 +51,7 @@ Se possível permitir alterar usuário, senha, porta e ip de maneira simples é 
 - IP: (Customizável assim como no webservice)
 
 Campo não informado no webservice que devem ser informados:
-- enviado (sempre enviar 2)
+- enviado (sempre enviar 2) (Para testes enviar 999)
 
 ```
 CREATE TABLE IF NOT EXISTS pontos_xpert_abastecimento (
